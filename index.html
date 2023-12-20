@@ -45,6 +45,12 @@
         em {
             font-style: italic; /* Make text inside <em> tags italic */
         }
+
+        .panel video {
+            width: 100%; /* Ensure videos take up the full width of the container */
+            border-radius: 8px; /* Add border-radius to videos for a rounded appearance */
+            margin-top: 10px; /* Add some margin above the videos */
+        }
     </style>
 </head>
 <body>
@@ -54,10 +60,26 @@
     <div class="story-container">
         <h2>Ribbit & Co.</h2>
 
+        <!-- Video 1 -->
+        <div class="panel">
+            <video controls>
+                <source src="Animation-1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         <!-- Panel 1 -->
         <div class="panel">
             <p>[Scene: A serene pond with lily pads. Ribbit, a quirky frog wearing glasses, sits on a lily pad with a book titled "Frogosophy." Nearby, Co., a mischievous frog, hides behind a bush.]</p>
             <p>Ribbit: "Ah, the joy of reading by the pond."</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="panel">
+            <video controls>
+                <source src="Animation-2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <!-- Panel 2 -->
