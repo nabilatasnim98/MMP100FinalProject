@@ -46,10 +46,10 @@
             font-style: italic; /* Make text inside <em> tags italic */
         }
 
-        .panel video {
-            width: 100%; /* Ensure videos take up the full width of the container */
-            border-radius: 8px; /* Add border-radius to videos for a rounded appearance */
-            margin-top: 10px; /* Add some margin above the videos */
+        .youtube-video {
+            width: 100%; /* Ensure the YouTube video takes up the full width of the container */
+            border-radius: 8px; /* Add border-radius to the video for a rounded appearance */
+            margin-top: 10px; /* Add some margin above the video */
         }
     </style>
 </head>
@@ -60,12 +60,9 @@
     <div class="story-container">
         <h2>Ribbit & Co.</h2>
 
-        <!-- Video 1 -->
+        <!-- YouTube Video 1 -->
         <div class="panel">
-            <video controls>
-                <source src="Animation-1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/2tku7jcC2C4" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <!-- Panel 1 -->
@@ -74,12 +71,9 @@
             <p>Ribbit: "Ah, the joy of reading by the pond."</p>
         </div>
 
-        <!-- Video 2 -->
+        <!-- YouTube Video 2 -->
         <div class="panel">
-            <video controls>
-                <source src="Animation-2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/6p7Od8KjmIw" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <!-- Panel 2 -->
